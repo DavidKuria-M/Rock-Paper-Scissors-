@@ -8,10 +8,124 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
-       
-        <button id="play">PLAY</button>
+    <section class="header">
+        <div class="logo">
+            <img src="./resources/hand-shake.png" alt="logo">
+            <h2 class="rock"> Rock</h2>
+            <h2 class="paper"> Paper</h2>
+            <h2 class="Scissors">Scissors</h2>
+        </div> 
+        
+        <div class="navbar">
+            <nav class="nav-list">
+                <ul>
+                    <li>Home</li>
+                    <li>How To Play</li>
+                    <li> About</li>
+                </ul>
+                
+            </nav>
+        </div>
+
+        <div class="theme-settings">
+            <img src="./resources/sun.png" alt="theme">
+        </div>
     </section>
+
+    <section class="title">
+        <div class="classic">
+            <h3>THE CLASSIC GAME</h3>
+        </div>
+        <div class="title-game">
+            <h1>Rock</h1>
+            <h1>Paper</h1>
+            <h1>Scissors</h1>
+        </div>
+        <div class="title-message">
+            <p>Choose your move.Beat the computer.First to 5 wins</p>
+        </div>
+    </section>
+
+    <section class="game-board">
+        <div class="score-list">
+            <div class="human-score">
+                <img src="./resources/user.png" alt="human">
+                <p>You</p>
+                <p id="score-human">0</p>
+            </div>
+
+            <div class="vs">
+                <p>VS</p>
+            </div>
+
+            <div class="computer-score">
+                <img src="./resources/robot.png" alt="computer">
+                <p>Computer</p>
+                <p id="score-computer">0</p>
+            </div>
+        </div>
+
+        <div>
+            <p>Make your Choice</p>
+
+            <div>
+                <ul>
+                    <li id="rock-play">
+                        <img id="selected-rock" src="./resources/rock.png" alt="Rock">
+                        <p>Rock</p>
+                    </li>
+                    <li id="paper-play">
+                        <img id="selected-paper" src="./resources/paper.png" alt="Paper">
+                        <p>Paper</p>
+                    </li>
+
+                    <li id="scissors-play">
+                        <img id="selected-scissors" src="./resources/scissors.png" alt="Scissors">
+                        <p>Scissors</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="result">
+                <p>RESULT</p>
+                <p id="outcome-result">Make your move to start!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero-section">
+            <div class="fast">
+                <img src="./resources/lightning.png" alt="Simple">
+                <h3>Simple & Fun</h3>
+                <p>A classic game with a modern look</p>
+            </div>
+
+            <div class="play">
+                <img src="./resources/gaming-pad.png" alt="Play">
+                <h3>Play Anytime</h3>
+                <p>No sign up needed. <br> Just click and enjoy</p>
+            </div>
+
+            <div class="score">
+                <img src="./resources/trophy.png" alt="Trouphy Score">
+                <h3>Track Your Score</h3>
+                <p>See who's winning <br>[You or the Computer]</p>
+            </div>
+
+            <div class="responsive">
+                <img src="./resources/devices.png" alt="Responsive devices">
+                <h3>Fully Responsive</h3>
+                <p>Plays great on desktop tablet and mobile</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Rock</p>
+        <p>Paper</p>
+        <p>Scissors</p>
+    </footer>
     
 </body>
 </html>
